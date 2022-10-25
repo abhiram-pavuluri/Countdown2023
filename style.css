@@ -1,0 +1,56 @@
+body{
+    text-align:center;
+    background-color: #2d4036;
+    Color: #F0EBCE;
+    font-family:monospace;
+    font-weight: bold;
+}
+h1{
+    color: #F0EBCE;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 135px 0px 20px;
+    letter-spacing: 10px;
+}
+#clockdiv{
+    /* display: inline-block; */
+    display: absolute;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: #405741;
+    padding:30px;
+    margin: 0px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 3px #1c271c;
+}
+#clockdiv > div{
+    padding:50px;
+    border-radius: 20px;
+    display: inline-block;
+    background: #907546;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 3px #312918;
+}
+#clockdiv div > span{
+    padding: 70px;
+    border-radius: 30px;
+    background: #d1caa4;
+    display: inline-block;
+    color:#907546;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px 3px #5e4e2c;
+}
+.smalltext{
+    padding-top: 15px;
+    font-size: 25px;
+}
+h2{
+    letter-spacing: 25px;
+}
+footer{
+    margin-top: 25px;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
